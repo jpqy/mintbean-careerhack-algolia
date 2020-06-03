@@ -27,14 +27,14 @@ function App() {
     >
       <main className="search-container">
         <Configure
-          hitsPerPage={5}
-          attributesToSnippet={["description:24"]}
+          hitsPerPage={10}
+          attributesToSnippet={[]}
           snippetEllipsisText=" [...]"
         />
         <div className="right-panel">
           <div id="hits">
             {/* Uncomment the following widget to add hits list */}
-            {/* <Content /> */}
+            <Content />
           </div>
           <div id="searchbox">
             {/* Uncomment the following widget to add a search bar */}
