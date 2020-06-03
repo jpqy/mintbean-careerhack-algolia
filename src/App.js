@@ -26,10 +26,10 @@ function App() {
           snippetEllipsisText=" [...]"
         />
         <div className="right-panel">
-          <div id="hits">            
+          <div id="hits">
             <Content />
           </div>
-          <div id="searchbox">            
+          <div id="searchbox">
             <SearchBox
               translations={{
                 placeholder: "Search for your favourite Pokemon",
@@ -46,7 +46,7 @@ function App() {
         <div className="left-panel">
           <div id="type">
             <Panel header="Types">
-              <Facet attribute="type" searchable={true} />
+              <Facet attribute="type" searchable={true} operator="and" />
             </Panel>
           </div>
           <div id="weaknesses">
