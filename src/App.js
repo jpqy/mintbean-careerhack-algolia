@@ -26,36 +26,34 @@ function App() {
           snippetEllipsisText=" [...]"
         />
         <div className="right-panel">
-          <div id="hits">
-            {/* Uncomment the following widget to add hits list */}
+          <div id="hits">            
             <Content />
           </div>
-          <div id="searchbox">
-            {/* Uncomment the following widget to add a search bar */}
-            <SearchBox translations={{ placeholder: "Search for products" }} />
+          <div id="searchbox">            
+            <SearchBox
+              translations={{
+                placeholder: "Search for your favourite Pokemon",
+              }}
+            />
           </div>
           <div id="stats">
-            {/* Uncomment the following widget to add search stats */}
-            {/* <Stats /> */}
+            <Stats />
           </div>
           <div id="pagination">
-            {/* Uncomment the following widget to add pagination */}
-            {/* <Pagination /> */}
+            <Pagination />
           </div>
         </div>
         <div className="left-panel">
           <div id="type">
-            {/* Uncomment the following widget to add categories list */}
-            <Panel header="Type">
+            <Panel header="Types">
               <Facet attribute="type" searchable={true} />
             </Panel>
           </div>
           <div id="weaknesses">
-            {/* Uncomment the following widget to add brands list */}
             <Panel header="Weaknesses">
               <Facet attribute="weaknesses" searchable={true} />
             </Panel>
-          </div>          
+          </div>
         </div>
       </main>
     </InstantSearch>
