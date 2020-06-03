@@ -98,6 +98,7 @@ a {
   background: #fff;
   border-radius: 4px;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+  width: 45%;
 }
 
 .ais-SearchBox-input:focus {
@@ -113,6 +114,11 @@ a {
   flex-grow: 1;
   display: flex;
   flex-direction: column;
+}
+.ais-Hits-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 #searchbox {
