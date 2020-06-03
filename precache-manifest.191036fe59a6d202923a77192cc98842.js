@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d9fe42a0ea938ac6a432c6b000cbe06f",
+    "revision": "626f2f43230559471379e38a6e6afaaa",
     "url": "/mintbean-careerhack-algolia/index.html"
   },
   {
-    "revision": "ca09b0183b7717377c8f",
-    "url": "/mintbean-careerhack-algolia/static/css/main.8fbd8ee5.chunk.css"
+    "revision": "6c7b0affaca51155211d",
+    "url": "/mintbean-careerhack-algolia/static/css/main.01fba733.chunk.css"
   },
   {
     "revision": "be26e9075abc028a3c6c",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mintbean-careerhack-algolia/static/js/2.603ce82a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ca09b0183b7717377c8f",
+    "revision": "6c7b0affaca51155211d",
     "url": "/mintbean-careerhack-algolia/static/js/main.cd127e5d.chunk.js"
   },
   {
