@@ -17,7 +17,9 @@ function Hit({ hit }) {
             <Highlight attribute="name" hit={hit} tagName="em" />
           </div>
         </div>
-        <Type types={hit.type} />
+        <div className="types-container">
+          <Type types={hit.type} />
+        </div>
       </div>
     </div>
   );

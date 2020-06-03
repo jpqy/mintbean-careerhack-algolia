@@ -234,6 +234,8 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  flex-grow: 1;
+  text-align: right;
 }
 
 .hit-image {
@@ -501,4 +503,66 @@ aside.pokedex-number {
 
 #pokeball-icon {
   height: 15px;
+}
+
+.type-container {
+  display: flex;
+  justify-content: flex-end;
+  flex-shrink: 1;
+}
+.type {
+  border-radius: 5px;
+  display: flex;
+  flex-shrink: 1;    
+  padding: 5px;
+  justify-content: center;
+  margin-top: 5px;
+}
+
+.type--Fire {
+  background-color: coral;
+}
+
+.type--Water {
+  background-color: lightskyblue;
+}
+
+.type--Poison {
+  background-color: MEDIUMPURPLE;
+}
+.type--Grass {
+  background-color: LIGHTGREEN;
+}
+.type--Bug {
+  background-color: YELLOWGREEN;
+}
+.type--Flying {
+  background-color: CORNSILK;
+}
+.type--Normal {
+  background-color: GAINSBORO;
+}
+.type--Ground {
+background-color: OLDLACE;
+}
+.type--Fighting {
+background-color: TOMATO;
+}
+.type--Psychic {
+background-color: PLUM;
+}
+
+.type--Electric {
+background-color: LIGHTYELLOW;
+}
+
+.type--Rock {
+background-color: PERU;
+}
+
+.type--Ice {
+background-color: LIGHTCYAN;
+}
+.type--Dragon {
+background-color: THISTLE;
 }
