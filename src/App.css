@@ -483,3 +483,19 @@ footer {
 #pagination:empty:before {
   content: "Uncomment the pagination widget to add pagination.";
 }
+
+aside.pokedex-number {
+  position: relative;
+  height:20%;
+  top: 0;
+  left: 0;
+  padding: 7px;
+  display: flex;
+  align-items: center;
+  background-color: goldenrod;
+  color: white;  
+  border-bottom-right-radius: 10px;
+  font-size: 0.8em;
+  font-weight: bold;
+
+}
