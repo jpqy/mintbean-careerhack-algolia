@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/mintbean-careerhack-algolia/static/css/main.3292dcb6.chunk.css",
+    "main.js": "/mintbean-careerhack-algolia/static/js/main.ba2980dc.chunk.js",
+    "main.js.map": "/mintbean-careerhack-algolia/static/js/main.ba2980dc.chunk.js.map",
+    "runtime-main.js": "/mintbean-careerhack-algolia/static/js/runtime-main.daf04975.js",
+    "runtime-main.js.map": "/mintbean-careerhack-algolia/static/js/runtime-main.daf04975.js.map",
+    "static/js/2.603ce82a.chunk.js": "/mintbean-careerhack-algolia/static/js/2.603ce82a.chunk.js",
+    "static/js/2.603ce82a.chunk.js.map": "/mintbean-careerhack-algolia/static/js/2.603ce82a.chunk.js.map",
+    "index.html": "/mintbean-careerhack-algolia/index.html",
+    "precache-manifest.ced9aeb0828bd83d1b09bc3cc1ab2de9.js": "/mintbean-careerhack-algolia/precache-manifest.ced9aeb0828bd83d1b09bc3cc1ab2de9.js",
+    "service-worker.js": "/mintbean-careerhack-algolia/service-worker.js",
+    "static/css/main.3292dcb6.chunk.css.map": "/mintbean-careerhack-algolia/static/css/main.3292dcb6.chunk.css.map",
+    "static/js/2.603ce82a.chunk.js.LICENSE.txt": "/mintbean-careerhack-algolia/static/js/2.603ce82a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.daf04975.js",
+    "static/js/2.603ce82a.chunk.js",
+    "static/css/main.3292dcb6.chunk.css",
+    "static/js/main.ba2980dc.chunk.js"
+  ]
+}
