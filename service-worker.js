@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/mintbean-careerhack-algolia/precache-manifest.191036fe59a6d202923a77192cc98842.js"
+  "/mintbean-careerhack-algolia/precache-manifest.95b6801c917be3934eea6bc89d3d1a41.js"
 );
 
 self.addEventListener('message', (event) => {
