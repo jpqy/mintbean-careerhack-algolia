@@ -486,16 +486,19 @@ footer {
 
 aside.pokedex-number {
   position: relative;
-  height:20%;
+  height: 20%;
   top: 0;
   left: 0;
   padding: 7px;
   display: flex;
   align-items: center;
   background-color: goldenrod;
-  color: white;  
+  color: white;
   border-bottom-right-radius: 10px;
   font-size: 0.8em;
   font-weight: bold;
+}
 
+#pokeball-icon {
+  height: 15px;
 }
