@@ -1,25 +1,82 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import {
+  InstantSearch,
+  SearchBox,
+  Pagination,
+  Configure,
+  Panel,
+} from "react-instantsearch-dom";
+import "./App.css";
+import algoliasearch from 'algoliasearch/lite';
+import Stats from "./Stats.js";
+import RangeSlider from "./RangeSlider.js";
+import Content from "./Content";
+import Facet from "./Facet";
+const APPLICATION_ID = "X2H6EHSA90";
+const SEARCH_API = "ad06c17de6f6949cfc0f8ef3a7ba1616";
+const searchClient = algoliasearch(
+  APPLICATION_ID,
+  SEARCH_API
+);
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <InstantSearch
+      searchClient={searchClient}
+      indexName="pokemon"
+    >
+      <main className="search-container">
+        <Configure
+          hitsPerPage={5}
+          attributesToSnippet={["description:24"]}
+          snippetEllipsisText=" [...]"
+        />
+        <div className="right-panel">
+          <div id="hits">
+            {/* Uncomment the following widget to add hits list */}
+            {/* <Content /> */}
+          </div>
+          <div id="searchbox">
+            {/* Uncomment the following widget to add a search bar */}
+            {/* <SearchBox
+                translations={{ placeholder: "Search for products" }}
+              /> */}
+          </div>
+          <div id="stats">
+            {/* Uncomment the following widget to add search stats */}
+            {/* <Stats /> */}
+          </div>
+          <div id="pagination">
+            {/* Uncomment the following widget to add pagination */}
+            {/* <Pagination /> */}
+          </div>
+        </div>
+        <div className="left-panel">
+          <div id="categories">
+            {/* Uncomment the following widget to add categories list */}
+            {/* <Panel header="Categories">
+                <Facet attribute="categories" />
+              </Panel> */}
+          </div>
+          <div id="brands">
+            {/* Uncomment the following widget to add brands list */}
+            {/* <Panel header="Brands">
+                <Facet
+                  attribute="brand"
+                  searchable={true}
+                  translations={{ placeholder: "Search for other..." }}
+                />
+              </Panel> */}
+          </div>
+          <div id="price">
+            {/* Uncomment the following widget to add price */}
+            {/* <Panel header="Price">
+                <RangeSlider attribute="price" />
+              </Panel> */}
+          </div>
+        </div>
+      </main>
+    </InstantSearch>
   );
 }
 
