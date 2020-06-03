@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { Highlight, Snippet } from "react-instantsearch-dom";
-
+import Type from "./Type";
 export default Hit;
 
 function Hit({ hit }) {
@@ -15,9 +15,9 @@ function Hit({ hit }) {
         <div>
           <div className="hit-name">
             <Highlight attribute="name" hit={hit} tagName="em" />
-          </div>          
+          </div>
         </div>
-        <div className="hit-type">{hit.type.join(", ")}</div>
+        <Type types={hit.type} />
       </div>
     </div>
   );
