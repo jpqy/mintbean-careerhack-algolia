@@ -71,26 +71,26 @@ a {
   }
 }
 
-#brands .ais-SearchBox-input {
+#weaknesses .ais-SearchBox-input {
   box-shadow: none;
   border-bottom: 1px solid #eee;
   border-radius: 0;
 }
 
-#categories,
-#brands {
+#type,
+#weaknesses {
   margin-bottom: 24px;
 }
 
-#categories,
-#brands,
+#type,
+#weaknesses,
 #price {
   margin-right: 24px;
   padding: 8px 0;
 }
 
-#categories,
-#brands,
+#type,
+#weaknesses,
 #price,
 .ais-Hits-item,
 .ais-SearchBox-input {
@@ -98,9 +98,11 @@ a {
   background: #fff;
   border-radius: 4px;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
-  width: 45%;
 }
 
+.ais-Hits-item {
+  width: 45%;
+}
 .ais-SearchBox-input:focus {
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
 }
@@ -423,8 +425,8 @@ footer {
 
 #searchbox:empty:before,
 #hits:empty:before,
-#categories:empty:before,
-#brands:empty:before,
+#type:empty:before,
+#weaknesses:empty:before,
 #price:empty:before,
 #stats:empty:before,
 #pagination:empty:before {
@@ -435,8 +437,8 @@ footer {
 
 #searchbox:empty,
 #hits:empty,
-#categories:empty,
-#brands:empty,
+#type:empty,
+#weaknesses:empty,
 #price:empty,
 #stats:empty,
 #pagination:empty {
@@ -466,11 +468,11 @@ footer {
   content: "Uncomment the stats widget to add search stats.";
 }
 
-#categories:empty:before {
+#type:empty:before {
   content: "Uncomment the categories widget to add categories list.";
 }
 
-#brands:empty:before {
+#weaknesses:empty:before {
   content: "Uncomment the brands widget to add brands list.";
 }
 
