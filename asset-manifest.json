@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/mintbean-careerhack-algolia/static/css/main.434c56bd.chunk.css",
-    "main.js": "/mintbean-careerhack-algolia/static/js/main.cd127e5d.chunk.js",
-    "main.js.map": "/mintbean-careerhack-algolia/static/js/main.cd127e5d.chunk.js.map",
-    "runtime-main.js": "/mintbean-careerhack-algolia/static/js/runtime-main.daf04975.js",
-    "runtime-main.js.map": "/mintbean-careerhack-algolia/static/js/runtime-main.daf04975.js.map",
-    "static/js/2.603ce82a.chunk.js": "/mintbean-careerhack-algolia/static/js/2.603ce82a.chunk.js",
-    "static/js/2.603ce82a.chunk.js.map": "/mintbean-careerhack-algolia/static/js/2.603ce82a.chunk.js.map",
-    "index.html": "/mintbean-careerhack-algolia/index.html",
-    "precache-manifest.48d5f6e1380e3fcb653f85cf2d942ae7.js": "/mintbean-careerhack-algolia/precache-manifest.48d5f6e1380e3fcb653f85cf2d942ae7.js",
-    "service-worker.js": "/mintbean-careerhack-algolia/service-worker.js",
-    "static/css/main.434c56bd.chunk.css.map": "/mintbean-careerhack-algolia/static/css/main.434c56bd.chunk.css.map",
-    "static/js/2.603ce82a.chunk.js.LICENSE.txt": "/mintbean-careerhack-algolia/static/js/2.603ce82a.chunk.js.LICENSE.txt"
+    "main.css": "./static/css/main.1fba198a.chunk.css",
+    "main.js": "./static/js/main.87ed3c36.chunk.js",
+    "main.js.map": "./static/js/main.87ed3c36.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.1c7e667d.js",
+    "runtime-main.js.map": "./static/js/runtime-main.1c7e667d.js.map",
+    "static/js/2.131fe4da.chunk.js": "./static/js/2.131fe4da.chunk.js",
+    "static/js/2.131fe4da.chunk.js.map": "./static/js/2.131fe4da.chunk.js.map",
+    "index.html": "./index.html",
+    "precache-manifest.407c2cbf6f9a4d36d664c64ac5d2ef06.js": "./precache-manifest.407c2cbf6f9a4d36d664c64ac5d2ef06.js",
+    "service-worker.js": "./service-worker.js",
+    "static/css/main.1fba198a.chunk.css.map": "./static/css/main.1fba198a.chunk.css.map",
+    "static/js/2.131fe4da.chunk.js.LICENSE.txt": "./static/js/2.131fe4da.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.daf04975.js",
-    "static/js/2.603ce82a.chunk.js",
-    "static/css/main.434c56bd.chunk.css",
-    "static/js/main.cd127e5d.chunk.js"
+    "static/js/runtime-main.1c7e667d.js",
+    "static/js/2.131fe4da.chunk.js",
+    "static/css/main.1fba198a.chunk.css",
+    "static/js/main.87ed3c36.chunk.js"
   ]
 }
