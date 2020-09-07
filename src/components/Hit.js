@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import { Highlight } from "react-instantsearch-dom";
 import Type from "./Type";
-import { removeScheme } from "./helper";
+import { removeScheme } from "../helper";
 
 export default function Hit({ hit }) {
   return (

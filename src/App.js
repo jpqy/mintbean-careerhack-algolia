@@ -8,9 +8,9 @@ import {
 } from "react-instantsearch-dom";
 import "./App.css";
 import algoliasearch from "algoliasearch/lite";
-import Stats from "./Stats.js";
-import Content from "./Content";
-import Facet from "./Facet";
+import Stats from "./components/Stats.js";
+import Content from "./components/Content";
+import Facet from "./components/Facet";
 const {
   REACT_APP_ALGOLIA_APPLICATION_ID,
   REACT_APP_ALGOLIA_PUBLIC_API_KEY,
