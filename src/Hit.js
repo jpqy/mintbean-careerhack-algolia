@@ -1,15 +1,15 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { Highlight, Snippet } from "react-instantsearch-dom";
+import { Highlight } from "react-instantsearch-dom";
 import Type from "./Type";
-export default Hit;
+import { removeScheme } from "./helper";
 
-function Hit({ hit }) {
+export default function Hit({ hit }) {
   return (
-    <div className="hit">
+    <div className="hit" key={hit.id}>
       <div className="hit-image">
         <aside className="pokedex-number">{hit.id}</aside>
-        <img src={hit.img} />
+        <img src={removeScheme(hit.img)} alt={hit.name} />
       </div>
       <div className="hit-content">
         <div>
