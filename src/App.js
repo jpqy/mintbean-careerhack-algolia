@@ -11,9 +11,21 @@ import algoliasearch from "algoliasearch/lite";
 import Stats from "./Stats.js";
 import Content from "./Content";
 import Facet from "./Facet";
-const APPLICATION_ID = "X2H6EHSA90";
-const SEARCH_API = "ad06c17de6f6949cfc0f8ef3a7ba1616";
-const searchClient = algoliasearch(APPLICATION_ID, SEARCH_API);
+const {
+  REACT_APP_ALGOLIA_APPLICATION_ID,
+  REACT_APP_ALGOLIA_PUBLIC_API_KEY,
+} = process.env;
+
+if (!REACT_APP_ALGOLIA_APPLICATION_ID || !REACT_APP_ALGOLIA_PUBLIC_API_KEY) {
+  throw new Error(
+    "Please configure the env variables [REACT_APP_ALGOLIA_APPLICATION_ID] and [REACT_APP_ALGOLIA_PUBLIC_API_KEY] in your .env file"
+  );
+}
+
+const searchClient = algoliasearch(
+  REACT_APP_ALGOLIA_APPLICATION_ID,
+  REACT_APP_ALGOLIA_PUBLIC_API_KEY
+);
 
 function App() {
   return (
