@@ -31,6 +31,7 @@ body {
   display: flex;
   flex-direction: column;
   flex-grow: 1;
+  min-width: 1000px;
 }
 
 .ais-InstantSearch__root {
@@ -514,7 +515,7 @@ aside.pokedex-number {
 .type {
   border-radius: 5px;
   display: flex;
-  flex-shrink: 1;    
+  flex-shrink: 1;
   padding: 5px;
   justify-content: center;
   margin-top: 5px;
@@ -544,26 +545,26 @@ aside.pokedex-number {
   background-color: GAINSBORO;
 }
 .type--Ground {
-background-color: OLDLACE;
+  background-color: OLDLACE;
 }
 .type--Fighting {
-background-color: TOMATO;
+  background-color: TOMATO;
 }
 .type--Psychic {
-background-color: PLUM;
+  background-color: PLUM;
 }
 
 .type--Electric {
-background-color: LIGHTYELLOW;
+  background-color: LIGHTYELLOW;
 }
 
 .type--Rock {
-background-color: PERU;
+  background-color: PERU;
 }
 
 .type--Ice {
-background-color: LIGHTCYAN;
+  background-color: LIGHTCYAN;
 }
 .type--Dragon {
-background-color: THISTLE;
+  background-color: THISTLE;
 }

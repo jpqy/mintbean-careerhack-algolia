@@ -9,7 +9,6 @@ import {
 import "./App.css";
 import algoliasearch from "algoliasearch/lite";
 import Stats from "./Stats.js";
-import RangeSlider from "./RangeSlider.js";
 import Content from "./Content";
 import Facet from "./Facet";
 const APPLICATION_ID = "X2H6EHSA90";

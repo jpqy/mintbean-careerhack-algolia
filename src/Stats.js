@@ -6,9 +6,9 @@ export default connectStateResults(({ searchResults }) => {
     <div className="ais-Stats">
       <img
         src="img/pokeball.png"
-        role="img"
         aria-label="pokeball-icon"
         id="pokeball-icon"
+        alt="pokeball-icon"
       />{" "}
       <strong>{searchResults.nbHits}</strong> Pokemon found{" "}
       {searchResults.query !== "" && (
